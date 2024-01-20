@@ -14,7 +14,7 @@ if __name__ == "__main__":
     environment = gym.make("LunarLander-v2")
     Q = None
     state_mapping = dict()
-    episodes = 20000  # Total number of episodes
+    episodes = 50000  # Total number of episodes
     alpha = 0.9  # Learning rate
     gamma = 0.9  # Discount factor
     epsilon = 0.25  # Exploration vs Exploitation
