@@ -1,2 +1,3 @@
 gymnasium[all]
 numpy
+stable-baselines3
